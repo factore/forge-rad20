@@ -48,6 +48,7 @@ Gem::Specification.new do |s|
   s.add_dependency "money", "~> 5.0.0"
   s.add_dependency "nested_set", "~> 1.7.1"
   s.add_dependency "paperclip", "~> 3.3.0"
+  s.add_dependency "rails-observers", "~> 0.1.1"
   s.add_dependency "rdiscount", "~> 2.0.7"
   s.add_dependency "simple-rss", "~> 1.2.3"
   s.add_dependency "uuidtools", "~> 2.1.3"
