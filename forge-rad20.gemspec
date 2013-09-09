@@ -30,6 +30,7 @@ Gem::Specification.new do |s|
   s.add_dependency "cache_trasher", "~> 0.0.1"
   s.add_dependency "cancan", "~> 1.6.9"
   s.add_dependency "capistrano", "~> 2.14.1"
+  s.add_dependency 'coffee-rails', '~> 4.0.0'
   s.add_dependency "delayed_job", "~> 4.0.0.beta2"
   s.add_dependency "delayed_job_active_record", "~> 4.0.0.beta2"
   s.add_dependency "devise", "~> 3.0.0.rc"
@@ -48,9 +49,12 @@ Gem::Specification.new do |s|
   s.add_dependency "money", "~> 5.0.0"
   s.add_dependency "nested_set", "~> 1.7.1"
   s.add_dependency "paperclip", "~> 3.3.0"
+  s.add_dependency "protected_attributes", "~> 1.0.3"
   s.add_dependency "rails-observers", "~> 0.1.1"
   s.add_dependency "rdiscount", "~> 2.0.7"
   s.add_dependency "simple-rss", "~> 1.2.3"
+  s.add_dependency 'sass-rails', '~> 4.0.0'
+  s.add_dependency 'uglifier', '>= 1.3.0'
   s.add_dependency "uuidtools", "~> 2.1.3"
   s.add_dependency "will_paginate", "~> 3.0.4"
   s.add_dependency "yaml_db", "~> 0.2.3"
