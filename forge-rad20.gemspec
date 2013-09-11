@@ -29,6 +29,7 @@ Gem::Specification.new do |s|
   s.add_dependency "capistrano", "~> 2.14.1"
   s.add_dependency "ckeditor", "~> 4.0.6"
   s.add_dependency 'coffee-rails', '~> 4.0.0'
+  s.add_dependency 'daemons', '~> 1.1.9'
   s.add_dependency "delayed_job", "~> 4.0.0"
   s.add_dependency "delayed_job_active_record", "~> 4.0.0"
   s.add_dependency "devise", "~> 3.1.0"
