@@ -47,7 +47,7 @@ Gem::Specification.new do |s|
   s.add_dependency "mime-types", "~> 1.21"
   s.add_dependency "money", "~> 5.0.0"
   s.add_dependency "awesome_nested_set", "~> 3.0.0.rc.1"
-  s.add_dependency "paperclip", "~> 3.3.0"
+  s.add_dependency "paperclip", "~> 3.5.1"
   s.add_dependency "protected_attributes", "~> 1.0.3"
   s.add_dependency "rails-observers", "~> 0.1.1"
   s.add_dependency "rails-settings-cached", '~> 0.3'
