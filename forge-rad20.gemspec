@@ -24,7 +24,6 @@ Gem::Specification.new do |s|
   s.add_dependency "acts-as-taggable-on", "~> 2.4"
   s.add_dependency "aws-s3", "~> 0.6.3"
   s.add_dependency "aws-sdk", "~> 1.8.1.2"
-  s.add_dependency "cache_trasher", "~> 0.0.1"
   s.add_dependency "cancan", "~> 1.6.9"
   s.add_dependency "capistrano", "~> 2.14.1"
   s.add_dependency "ckeditor", "~> 4.0.6"
