@@ -18,6 +18,8 @@ Gem::Specification.new do |s|
   s.add_dependency "rails", "~> 4.0.0"
 
   # The Plugins
+  s.add_dependency "protected_attributes", "~> 1.0.3"
+  # the rest of these are alphabetically ordered.  delayed_job needs protected_attributes to be included before it is.
   s.add_dependency "aasm", "~> 3.0.16"
   s.add_dependency "active_shipping", "~> 0.9.14"
   s.add_dependency "activemerchant", "~> 1.29.3"
@@ -48,7 +50,6 @@ Gem::Specification.new do |s|
   s.add_dependency "money", "~> 5.0.0"
   s.add_dependency "awesome_nested_set", "~> 3.0.0.rc.1"
   s.add_dependency "paperclip", "~> 3.5.1"
-  s.add_dependency "protected_attributes", "~> 1.0.3"
   s.add_dependency "rails-observers", "~> 0.1.1"
   s.add_dependency "rails-settings-cached", '~> 0.3'
   s.add_dependency "rdiscount", "~> 2.0.7"

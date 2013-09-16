@@ -1,3 +1,5 @@
+require 'protected_attributes'
+# the rest of these are alphabetically ordered.  delayed_job needs protected_attributes to be included before it is.
 require 'aasm'
 require 'active_shipping'
 require 'activemerchant'
@@ -27,7 +29,6 @@ require 'mime-types'
 require 'money'
 require 'awesome_nested_set'
 require 'paperclip'
-require 'protected_attributes'
 require 'rails-settings-cached'
 require 'rdiscount'
 require 'simple-rss'
