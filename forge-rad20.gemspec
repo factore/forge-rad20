@@ -23,7 +23,7 @@ Gem::Specification.new do |s|
   s.add_dependency "aasm", "~> 3.0.16"
   s.add_dependency "active_shipping", "~> 0.9.14"
   s.add_dependency "activemerchant", "~> 1.29.3"
-  s.add_dependency "acts-as-taggable-on", "~> 2.4"
+  s.add_dependency "acts-as-taggable-on", "~> 2.4.1"
   s.add_dependency "aws-s3", "~> 0.6.3"
   s.add_dependency "aws-sdk", "~> 1.8.1.2"
   s.add_dependency "cancan", "~> 1.6.9"
